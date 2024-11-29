@@ -1,6 +1,6 @@
 # Online Recipe Management System
 
-###Purpose: To help users search, save, and organize recipes in a personalized online cookbook.
+### Purpose: To help users search, save, and organize recipes in a personalized online cookbook.
 ###Requirements:
 * Users can search for recipes based on ingredients, cuisine, or cooking time.
 * Users can create a weekly meal plan and schedule.
