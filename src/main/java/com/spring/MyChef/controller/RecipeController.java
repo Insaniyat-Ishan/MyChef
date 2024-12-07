@@ -8,6 +8,6 @@ public class RecipeController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Welcome to MyChef!";
+        return "Welcome to MyChef! This edit is by aadit";
     }
 }
