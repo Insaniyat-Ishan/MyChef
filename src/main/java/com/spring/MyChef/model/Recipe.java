@@ -1,7 +1,5 @@
 //package com.spring.MyChef.model;
 //
-//
-//
 //import org.springframework.data.annotation.Id;
 //import org.springframework.data.mongodb.core.mapping.Document;
 //
@@ -11,7 +9,12 @@
 //    @Id
 //    private String id;
 //    private String title;
-//    private String description;
+//    private String prepTime;
+//    private String cookTime;
+//    private String yields;
+//    private String[] ingredients;
+//    private String[] steps;
+//    private String imageUrl;
 //
 //    // Getters and Setters
 //    public String getId() {
@@ -30,11 +33,51 @@
 //        this.title = title;
 //    }
 //
-//    public String getDescription() {
-//        return description;
+//    public String getPrepTime() {
+//        return prepTime;
 //    }
 //
-//    public void setDescription(String description) {
-//        this.description = description;
+//    public void setPrepTime(String prepTime) {
+//        this.prepTime = prepTime;
+//    }
+//
+//    public String getCookTime() {
+//        return cookTime;
+//    }
+//
+//    public void setCookTime(String cookTime) {
+//        this.cookTime = cookTime;
+//    }
+//
+//    public String getYields() {
+//        return yields;
+//    }
+//
+//    public void setYields(String yields) {
+//        this.yields = yields;
+//    }
+//
+//    public String[] getIngredients() {
+//        return ingredients;
+//    }
+//
+//    public void setIngredients(String[] ingredients) {
+//        this.ingredients = ingredients;
+//    }
+//
+//    public String[] getSteps() {
+//        return steps;
+//    }
+//
+//    public void setSteps(String[] steps) {
+//        this.steps = steps;
+//    }
+//
+//    public String getImageUrl() {
+//        return imageUrl;
+//    }
+//
+//    public void setImageUrl(String imageUrl) {
+//        this.imageUrl = imageUrl;
 //    }
 //}
