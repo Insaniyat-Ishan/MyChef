@@ -3,6 +3,8 @@
 //import org.springframework.data.annotation.Id;
 //import org.springframework.data.mongodb.core.mapping.Document;
 //
+//import java.util.List;
+//
 //@Document(collection = "recipes")
 //public class Recipe {
 //
@@ -12,11 +14,13 @@
 //    private String prepTime;
 //    private String cookTime;
 //    private String yields;
-//    private String[] ingredients;
-//    private String[] steps;
+//    private List<String> ingredients;
+//    private List<String> steps;
 //    private String imageUrl;
 //
-//    // Getters and Setters
+//    private List<String> tags; // Add this field for tags
+//
+//    // Getters and setters for all fields
 //    public String getId() {
 //        return id;
 //    }
@@ -57,19 +61,19 @@
 //        this.yields = yields;
 //    }
 //
-//    public String[] getIngredients() {
+//    public List<String> getIngredients() {
 //        return ingredients;
 //    }
 //
-//    public void setIngredients(String[] ingredients) {
+//    public void setIngredients(List<String> ingredients) {
 //        this.ingredients = ingredients;
 //    }
 //
-//    public String[] getSteps() {
+//    public List<String> getSteps() {
 //        return steps;
 //    }
 //
-//    public void setSteps(String[] steps) {
+//    public void setSteps(List<String> steps) {
 //        this.steps = steps;
 //    }
 //
@@ -79,5 +83,13 @@
 //
 //    public void setImageUrl(String imageUrl) {
 //        this.imageUrl = imageUrl;
+//    }
+//
+//    public List<String> getTags() {
+//        return tags;
+//    }
+//
+//    public void setTags(List<String> tags) {
+//        this.tags = tags;
 //    }
 //}

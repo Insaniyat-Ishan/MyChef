@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe Search</title>
+  <link rel="stylesheet" href="/css/recipe_search.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="/js/recipe_search.js" defer></script>
+</head>
+<body>
+<header>
+  <h1>Search Recipes</h1>
+</header>
+
+<!-- Search Form -->
+<section id="search-section">
+  <form id="search-form">
+    <label for="ingredient">Ingredient:</label>
+    <input type="text" id="ingredient" name="ingredient" placeholder="Enter an ingredient" required>
+    <button type="submit">Search</button>
+  </form>
+</section>
+
+<!-- Search Results -->
+<section id="results-section">
+  <h2>Search Results</h2>
+  <div id="results-container">
+    <!-- Recipes will be displayed here -->
+  </div>
+</section>
+</body>
+</html>
