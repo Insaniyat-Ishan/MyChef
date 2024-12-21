@@ -19,7 +19,10 @@ public class UserController {
 
     // Show Login Page
     @GetMapping("/login")
-    public String showLoginPage() {
+    public String showLoginPage(Model model) {
+        if (model.containsAttribute("user")) {
+            return "Dashboard";  // Show the dashboard
+        }
         return "login";  // Return login.html from templates folder
     }
 
